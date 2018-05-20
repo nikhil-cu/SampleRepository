@@ -10,14 +10,14 @@ namespace SampleMVCApplication.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "";
+            ViewBag.Message = "This is the Index action";
 
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your app description page.";
+            ViewBag.Message = "";
 
             return View();
         }
